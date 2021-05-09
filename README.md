@@ -27,6 +27,10 @@ We removed "Name" and "EIN" for Deliverable 1,2. For Deliverable 3, "Status" and
 
 
 * Were you able to achieve the target model performance?
+
+![Model-Optimization](https://github.com/FatimaJHussain/Neural_Network_Charity_Analysis/blob/main/optimization-model.png)
+![Optimization-Results](https://github.com/FatimaJHussain/Neural_Network_Charity_Analysis/blob/main/optimization-results.png)
+
 * What steps did you take to try and increase model performance?
 
 
