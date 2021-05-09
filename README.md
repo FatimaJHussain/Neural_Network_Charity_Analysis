@@ -13,9 +13,7 @@ Variable "IS_SUCCESSFUL" is considered as a target.
 Following variables are used as features for our model:
 
 APPLICATION_TYPE,   AFFILIATION,   CLASSIFICATION,   USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT          
-              
-               
-           
+                      
    
 
 * What variable(s) are neither targets nor features, and should be removed from the input data?
@@ -23,6 +21,9 @@ APPLICATION_TYPE,   AFFILIATION,   CLASSIFICATION,   USE_CASE, ORGANIZATION, INC
 We removed "Name" and "EIN" for Deliverable 1,2. For Deliverable 3, "Status" and "EIN" are dropped.
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+![Model](https://github.com/FatimaJHussain/Neural_Network_Charity_Analysis/blob/main/model.png)
+
 * Were you able to achieve the target model performance?
 * What steps did you take to try and increase model performance?
 
