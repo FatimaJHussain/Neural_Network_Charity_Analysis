@@ -20,7 +20,7 @@ We removed "Name" and "EIN" for Deliverable 1,2. For Deliverable 3, "Status" and
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-Only 70 % accuracy is achieved with the following specifications.
+Only 72 % accuracy is achieved with the following specifications.
 ![Model](https://github.com/FatimaJHussain/Neural_Network_Charity_Analysis/blob/main/model.png)
 ![Result](https://github.com/FatimaJHussain/Neural_Network_Charity_Analysis/blob/main/result.png)
 
