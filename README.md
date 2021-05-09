@@ -40,5 +40,4 @@ We tried changing activationfunction from Relu to Tanh, but it didnot make any a
 
 ## Summary:
 
-There is a summary of the results 
-There is a recommendation on using a different model to solve the classification problem, and justification 
+Neural Networks is used to predict the success of the organization. Instead of NNs, Random Forest algorithm and Logistic Regression can also be used. 
