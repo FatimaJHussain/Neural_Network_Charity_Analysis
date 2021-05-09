@@ -8,6 +8,7 @@ The purpose of this analysis is to create a binary classifier using neural netwo
 * What variable(s) are considered the target(s) for your model?
 * What variable(s) are considered to be the features for your model?
 * What variable(s) are neither targets nor features, and should be removed from the input data?
+We removed "Name" and "EIN" for Deliverable 1,2. For Deliverable 3, "Status" and "EIN" are dropped.
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 * Were you able to achieve the target model performance?
