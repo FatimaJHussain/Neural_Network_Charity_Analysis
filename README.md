@@ -40,6 +40,6 @@ We tried changing activationfunction from Relu to Tanh, but it didnot make any a
 
 ## Summary:
 
-Neural Networks is used to predict the success of the organization. Instead of NNs, Random Forest algorithm and Logistic Regression can also be used. 
+Neural Networks is used to predict the success of the organization, in the given project. Instead of NNs, Random Forest algorithm and Logistic Regression can also be used. 
 Neural networks are prone to overfitting and can be more difficult to train than a straightforward logistic regression or Random Forest models. If feature set has fewer features, then neural networks may be overcomplicated. Therefore, Random Forest and Logistc Regression are the good choice wityh comparable predictive performance. Neural networks (and especially deep neural networks) works well in large datasets, and with complex features, and it can evaluate every interaction within and across neurons. However, Random Forest is able to achieve comparable predictive accuracy on large tabular data with less code and faster performance.
 
