@@ -12,9 +12,7 @@ Variable "IS_SUCCESSFUL" is considered as a target.
 
 Following variables are used as features for our model:
 
-APPLICATION_TYPE,   AFFILIATION,   CLASSIFICATION,   USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT          
-                      
-   
+APPLICATION_TYPE,   AFFILIATION,   CLASSIFICATION,   USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT           
 
 * What variable(s) are neither targets nor features, and should be removed from the input data?
 
@@ -29,12 +27,15 @@ Only 70 % accuracy is achieved with the following specifications.
 
 * Were you able to achieve the target model performance?
 
-We aimed to improve the accuracy more than 70% and by using follwoing specifications, we achieved 77% accuracy.
+We aimed to improve the accuracy more than 72% and by using follwoing specifications, we achieved 77% accuracy.
 
 ![Model-Optimization](https://github.com/FatimaJHussain/Neural_Network_Charity_Analysis/blob/main/optimization-model.png)
 ![Optimization-Results](https://github.com/FatimaJHussain/Neural_Network_Charity_Analysis/blob/main/optimization-results.png)
 
 * What steps did you take to try and increase model performance?
+
+We decreased the number of neurons in the second layer and also tried saving the model's weights every 5 epochs, and it helped improving the model accuracy to 77%.
+We tried changing activationfunction from Relu to Tanh, but it didnot make any accuracy enhancement.
 
 
 ## Summary:
