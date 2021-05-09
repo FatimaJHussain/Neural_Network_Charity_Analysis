@@ -6,7 +6,18 @@ The purpose of this analysis is to create a binary classifier using neural netwo
 ## Results:
 ### Data Processing
 * What variable(s) are considered the target(s) for your model?
+
+Variable "IS_SUCCESSFUL" is considered as a target.
 * What variable(s) are considered to be the features for your model?
+
+Following variables are used as features for our model:
+
+APPLICATION_TYPE,   AFFILIATION,   CLASSIFICATION,   USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT          
+              
+               
+           
+   
+
 * What variable(s) are neither targets nor features, and should be removed from the input data?
 
 We removed "Name" and "EIN" for Deliverable 1,2. For Deliverable 3, "Status" and "EIN" are dropped.
